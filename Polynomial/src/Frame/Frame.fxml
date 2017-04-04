@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane hgap="10" prefHeight="546.0" prefWidth="700.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Frame.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="0.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="261.0" minHeight="261.0" prefHeight="261.0" />
+      <RowConstraints maxHeight="261.0" minHeight="261.0" prefHeight="261.0" />
+   </rowConstraints>
+   <children>
+      <TitledPane animated="false" prefHeight="261.0" prefWidth="679.0" text="Polynomial Operation Calculator" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <content>
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="240.0" prefWidth="677.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="25.0" prefHeight="17.0" prefWidth="113.0" text="First polynomial:" />
+                  <Label layoutX="14.0" layoutY="59.0" prefHeight="17.0" prefWidth="113.0" text="Second polynomial:" />
+                  <TextField fx:id="pol1" layoutX="127.0" layoutY="21.0" prefHeight="25.0" prefWidth="522.0" promptText="input format:  an*x^n+...+a1*x+a0" />
+                  <TextField fx:id="pol2" layoutX="127.0" layoutY="55.0" prefHeight="25.0" prefWidth="522.0" promptText="input format:  an*x^n+...+a1*x+a0" />
+                  <Button fx:id="process" layoutX="127.0" layoutY="94.0" mnemonicParsing="false" onAction="#process_polynomials" text="Process polynomials" />
+                  <TextArea fx:id="text_area1" editable="false" layoutX="3.0" layoutY="124.0" prefHeight="106.0" prefWidth="671.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <Pane prefHeight="158.0" prefWidth="679.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Button fx:id="addition" layoutX="6.0" layoutY="2.0" mnemonicParsing="false" onAction="#addition" prefHeight="36.0" prefWidth="85.0" text="+" />
+            <Button fx:id="subtraction" layoutX="91.0" layoutY="2.0" mnemonicParsing="false" onAction="#subtraction" prefHeight="36.0" prefWidth="85.0" text="-" />
+            <Button fx:id="multiplication" layoutX="176.0" layoutY="2.0" mnemonicParsing="false" onAction="#multiplication" prefHeight="36.0" prefWidth="85.0" text="*" />
+            <Button fx:id="division" layoutX="261.0" layoutY="2.0" mnemonicParsing="false" onAction="#division" prefHeight="36.0" prefWidth="85.0" text="/" />
+            <Button fx:id="derivate" layoutX="346.0" layoutY="2.0" mnemonicParsing="false" onAction="#derivative" prefHeight="36.0" prefWidth="85.0" text="DERIVATIVE" />
+            <Button fx:id="integrate" layoutX="431.0" layoutY="2.0" mnemonicParsing="false" onAction="#integrate" prefHeight="36.0" prefWidth="85.0" text="INTEGRATE" />
+            <ImageView fx:id="img" fitHeight="186.0" fitWidth="161.0" layoutX="516.0" layoutY="38.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../Resources/download.jpg" />
+               </image>
+            </ImageView>
+            <TextArea fx:id="text_area_2" editable="false" layoutX="6.0" layoutY="46.0" prefHeight="213.0" prefWidth="509.0" />
+         </children>
+      </Pane>
+   </children>
+</GridPane>

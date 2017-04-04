@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="299.0" y="680.0">Client_Manager.Client</node>
+    <node x="519.0" y="680.0">GUI_Controller.Controller</node>
+    <node x="0.0" y="406.0">Servicers.Servicer</node>
+    <node x="310.0" y="406.0">Logger.LoggerManager</node>
+    <node x="632.0" y="406.0">JunitTest.TestSuite</node>
+    <node x="0.0" y="0.0">Client_Manager.Client_Profile</node>
+    <node x="314.0" y="866.0">UniqueIDManager.IDgenerator</node>
+    <node x="0.0" y="866.0">Client_Manager.Client_Profile_Factory</node>
+    <node x="760.0" y="680.0">GUI_Controller.Main</node>
+    <node x="459.0" y="0.0">Client_Manager.ClientQueue</node>
+    <node x="0.0" y="680.0">Store.QueueServicerPair</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Client_Manager.Client_Profile_Factory" target="Client_Manager.Client">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Store.QueueServicerPair" target="Servicers.Servicer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="GUI_Controller.Controller" target="Store.QueueServicerPair">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Servicers.Servicer" target="Client_Manager.Client_Profile">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Store.QueueServicerPair" target="Client_Manager.ClientQueue">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client_Manager.Client_Profile" target="Client_Manager.Client">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client_Manager.Client_Profile_Factory" target="Client_Manager.Client_Profile">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="JunitTest.TestSuite" target="Store.QueueServicerPair">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="JunitTest.TestSuite" target="Servicers.Servicer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Client_Manager.ClientQueue" target="Client_Manager.Client_Profile">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4034151547491996" x="460.0" y="379.0" />
+  <SelectedNodes>
+    <node>Client_Manager.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

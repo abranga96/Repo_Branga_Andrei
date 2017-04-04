@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><content>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Cow</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>35.2</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<DISCRIMINANT>COW</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>4</nrOfLegs>
+	<name>Tiger</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<normalBodyTemp>33.2</normalBodyTemp>
+	<percBodyHair>0.98</percBodyHair>
+	<DISCRIMINANT>TIGER</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Dolphin</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>300</avgSwimDepth>
+	<waterType>SaltWater</waterType>
+	<DISCRIMINANT>Dolphin</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>0</nrOfLegs>
+	<name>Shark</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<avgSwimDepth>200</avgSwimDepth>
+	<waterType>SaltWater</waterType>
+	<DISCRIMINANT>SHARK</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Butterfly</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>true</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>BUTTERFLY</DISCRIMINANT>
+</ANIMAL>
+<ANIMAL>
+	<nrOfLegs>6</nrOfLegs>
+	<name>Cockroach</name>
+	<maintenanceCost>0.1</maintenanceCost>
+	<dangerPerc>0.1</dangerPerc>
+	<takenCareOf>false</takenCareOf>
+	<canFly>false</canFly>
+	<isDangerous>false</isDangerous>
+	<DISCRIMINANT>COCKROACH</DISCRIMINANT>
+</ANIMAL>
+</content>

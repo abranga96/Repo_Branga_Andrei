@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><content>
+<CARETAKER>
+	<name>Default</name>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<id>3355060c-d4ab-48bd-a6da-3f05038f7959</id>
+	<workingHours>0.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<name>Default</name>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<id>24383cb2-7e6b-4292-89b5-62371471bd14</id>
+	<workingHours>0.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<name>Default</name>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<id>f60c6398-61b9-4c6b-b66f-717432875ad5</id>
+	<workingHours>0.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<name>Default</name>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<id>2debd9b3-f1ea-410c-a427-e75f81b5a8b7</id>
+	<workingHours>0.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<name>Default</name>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<id>07e3fb7f-0321-45da-a1f9-a41d3a865450</id>
+	<workingHours>0.0</workingHours>
+</CARETAKER>
+<CARETAKER>
+	<name>Default</name>
+	<salary>0</salary>
+	<isDead>false</isDead>
+	<id>264c1599-56f4-4d70-9393-10997beeedc3</id>
+	<workingHours>0.0</workingHours>
+</CARETAKER>
+</content>
